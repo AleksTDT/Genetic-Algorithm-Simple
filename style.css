@@ -1,0 +1,17 @@
+body {
+    background: black;
+    color: whitesmoke;
+}
+
+canvas {
+    background: whitesmoke;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+button {
+    padding: 0.5em;
+    margin: 0.5em;
+}

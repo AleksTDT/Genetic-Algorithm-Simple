@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetic Algorithm for Traveling Salesman Problem</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <input type="radio" name="algorithm" id="random">
+        <label for="random">Random</label><br>
+        <input type="radio" name="algorithm" id="brute_force">
+        <label for="brute_force">Brute force</label><br>
+        <input type="radio" name="algorithm" id="genetic_algorithm">
+        <label for="genetic_algorithm">Genetic Algorithm</label><br>
+        <button onclick="getNextPath()">Next path</button>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="1200"></canvas>
+
+    <script src="canvas.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
